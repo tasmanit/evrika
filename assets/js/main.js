@@ -1,7 +1,6 @@
+$(document).ready(function(){
 $('.sliderjs').owlCarousel({
     loop:true,
-    margin:10,
-    nav:true,
     responsive:{
         0:{
             items:1
@@ -11,6 +10,22 @@ $('.sliderjs').owlCarousel({
         },
         1000:{
             items:1
+        }
+    }
+})
+$('.pricejs').owlCarousel({
+    loop: true,
+    margin: 10,
+    nav: true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:1
+        },
+        1000:{
+            items:4
         }
     }
 })
@@ -30,24 +45,13 @@ $('.reviewjs').owlCarousel({
         }
     }
 })
-$('.pricejs').owlCarousel({
-    loop:true,
-    margin:10,
-    nav:true,
-    responsive:{
-        0:{
-            items:1
-        },
-        600:{
-            items:1
-        },
-        1000:{
-            items:4
-        }
-    }
-})
 
 
+
+
+
+
+});
 
 function initMap() {
     // The location of Uluru

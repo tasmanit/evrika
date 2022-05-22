@@ -67,7 +67,7 @@ body{
     padding: 7px 10px;
     display: block;
     text-decoration: none;
-    color: #333;
+    color: rgba(0,0,0,.5);
     font-weight: 400;
     transition: .5s;
     
@@ -80,10 +80,15 @@ body{
     padding: 7px 10px;
     display: block;
     font-weight: bold;
-    color: rgba(227, 106, 0, 1);
+    
     margin-right: 25px;
 }
+.top-phone a{
+    color: rgba(227, 106, 0, 1);
+    text-decoration: none;
+}
 .top-phone i{
+    color: #333;
 }
 .singform button{
     background: none;
@@ -154,6 +159,9 @@ body{
     font-family: 'Lobster', cursive;
     color: rgba(255, 255, 255, 1);
 }
+.slider-title span{
+    color: rgba(227, 106, 0, 1);
+}
 .slider-descrip{
     color: #fff;
 }
@@ -163,8 +171,9 @@ body{
 
 /* aboutus */ 
 .aboutus{
-    background: #fff;
+    background: url("../../assets/img/patern.jpg");
     padding: 50px 0;
+    background-size: cover;
 }
 .about-title{
     margin-bottom: 20px;
@@ -184,12 +193,13 @@ body{
 }
 .about-item{
     border-radius: 15px;
-    min-height: 50px;
+    min-height: 215px;
     width: 30%;
     box-shadow: 0 10px 10px rgba(0,0,0,0.10), 0 5px 5px rgba(0,0,0,0.09);
     padding: 20px;
     margin-right: 5%;
     margin-bottom: 20px;
+    background-color: #fff;
 }
 .about-item:nth-child(3),
 .about-item:nth-child(6){
@@ -199,6 +209,9 @@ body{
     font-size: 60px;
     text-align: center;
     margin-bottom: 15px;
+    font-weight: bold;
+    color: rgba(227, 106, 0, 1);
+    font-family: 'Lobster', cursive;
 }
 .about-item___title{
     text-align: center;
@@ -209,8 +222,9 @@ body{
 
 /* price */
 .price-wrap{
-    background: #fff;
     padding: 50px 0;
+    background: url("../../assets/img/patern.jpg");
+    background-size: cover;
 }
 .price-title{
     margin-bottom: 40px;
@@ -389,11 +403,11 @@ body{
 .news-item:nth-child(1){
     width: 66%;
     margin-right: 2%;
-    margin-bottom: 15px;
+    margin-bottom: 25px;
 }
 .news-item:nth-child(2){
     width: 32%;
-    margin-bottom: 15px;
+    margin-bottom: 25px;
 }
 .news-item:nth-child(3){
     width: 32%;

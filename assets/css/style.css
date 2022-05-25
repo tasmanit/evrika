@@ -12,6 +12,7 @@ body{
     line-height: 1.25;
     background: #ccc;
     font-family: 'PT Sans', sans-serif;
+    background: #fff;
 }
 
 
@@ -183,17 +184,27 @@ body{
     color: rgba(227, 106, 0, 1);
     
 }
-
+.about-text{
+    font-size: 18px;
+}
+.about-img{
+    overflow: hidden;
+    border-radius: 15px;
+}
+.about-img img{
+    max-width: 100%;
+}
 
 .about-items{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+    margin-top: 25px;
 }
 .about-item{
     border-radius: 15px;
-    min-height: 215px;
+    min-height: 200px;
     width: 30%;
     box-shadow: 0 10px 10px rgba(0,0,0,0.10), 0 5px 5px rgba(0,0,0,0.09);
     padding: 20px;
@@ -255,6 +266,7 @@ body{
 }
 .price-item__img{
     overflow: hidden;
+    max-height: 200px;
 }
 .price-item__img img{
     transition: .5s;

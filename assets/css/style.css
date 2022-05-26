@@ -177,7 +177,7 @@ body{
     background-size: cover;
 }
 .about-title{
-    margin-bottom: 20px;
+    margin-bottom: 15px;
     font-size: 40px;
     font-weight: bold;
     font-family: 'Lobster', cursive;
@@ -186,6 +186,7 @@ body{
 }
 .about-text{
     font-size: 18px;
+    margin-bottom: 15px;
 }
 .about-img{
     overflow: hidden;
